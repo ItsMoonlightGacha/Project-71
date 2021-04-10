@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title> Blog </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand" href="#"> P.S.209 </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#Campus_Life">Campus Life</a></li>
+                <li><a href="#Achievements">Achievements</a></li>
+                <li><a href="#new">What's new</a></li>
+                <li><a href="#Alumni">Alumni</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="announcements">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            ***Feel free to ask queries on fdevivo@schools.nyc.gov***
+        </marquee>
+    </div>
+    <img id="image" src="P.S.209.jpeg">
+
+    <div class="page-header" id="Campus_Life">
+        <h2 clas="text-capitalize"> Campus Life </h2>
+
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="School%20Playground.jpeg">
+                <h4 class="text-capitalize"> <kbd> School Playground </kbd> </h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize"> </h5>
+                <p class="text-muted text-left"> This is the school playground. After lunch, we sometimes get to go there ( if theres bad weather we stay inside ) There's a lot of stuff there. A basketball hoop, tredmill and more! </p>
+            </div>
+
+
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="458957C7-A75F-484D-B4AE-84F09E9FBBEF.jpeg">
+                <h4 class="text-capitalize"> <kbd> School Front </kbd> </h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize"> </h5>
+                <p class="text-muted text-left"> This is the front of the school. It is especially pretty in the spring, the trees there start blossoming and it looks like in this picture </p>
+            </div>
+
+
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="110DD0F9-A256-4EB4-AA6F-898BDA507B2D.jpeg">
+                <h4 class="text-capitalize"> <kbd> School Cafeteria </kbd> </h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize"> </h5>
+                <p class="text-muted text-left"> Inside of the school cafeteria, the Student Of The Month trophy is being given. Every month, a student gets picked for being the most concentrated and having good grades. </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="page-header" id="Achievements">
+        <h2 class="text-capitalize"> school achievements </h2>
+    </div>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+        Rating increasement <i class="fa fa-sort-desc"> </i>
+    </div>
+
+    <div id="school_achievement1" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="Screen%20Shot%202021-04-03%20at%2010.19.53%20PM.png" class="img-responsive img thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize"> Our schools rating went up </h5>
+            <p> Our school's rating went from a 6 to a 9, which in my opinion is a good increasement </p>
+        </div>
+    </div>
+
+
+    <div class="page header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new"></div>
+    <h2 class="text-capitalize"> What's New </h2>
+
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4> Our schools bathrooms got renovated </h4>
+            <img src="bathroom.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> Our schools bathrooms got renovated, before they were really bad and crooked etc, but now they remade them and they look much better. Better locks, new sinks, new wallpaper, etc.
+            </p>
+        </li>
+    </ul>
+
+
+
+
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Alumni">
+        <h2 class="text-capitalize"> Alumni </h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Tony_Danza"> <img src="Tony_Danza.jpeg" class="img-responsive">
+        <hr>
+        <p class="text-primary">Tony Danza</p>
+    </div>
+    <div class="modal fade" id="Tony_Danza">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Tony Danza</h4>
+                </div>
+                <div class="modal-body"> <img src="Tony_Danza.jpeg" class="img-responsive img_modal">
+                    <p class="p_modal"> I asked my teacher weather there were any famous people who studied at our school and she said that someone called Tony Danza visited our schooll one day, though she said she wasn't sure if he actually went to our school or just visited it. Tony Danza is a famous actor and boxer. He was born on April 21, 1951. <br> <a href="https://en.wikipedia.org/wiki/Tony_Danza"><b>Read more about him</b></a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="page header col-lg-12 cold-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize"> Contact Us </h2>
+        </div>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.9579014234946!2d-73.96393668467498!3d40.58668465320959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2445dae4fb1a3%3A0x9e86902e702daa0a!2sP.S.%20209%20Margaret%20Mead!5e0!3m2!1sen!2sus!4v1617161932413!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+            <img src="P.S.209.jpeg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3> Principal's Name: </h3>
+            <h4> Frances Locurcio </h4>
+            <div class="contact_1">
+                <a href="mailto:school@gmail.com?subject=Hi">
+                    <h5> <i class="fa fa-envelope"></i>&nbsp;&nbsp; fdevivo@schools.nyc.gov </h5>
+                </a>
+                <a href="#">
+                    <h5> <i class="fa fa-phone-sqaure"></i>&nbsp;&nbsp; ( 718 ) 743-1954 </h5>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
